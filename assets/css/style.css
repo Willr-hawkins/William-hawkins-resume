@@ -7,6 +7,22 @@
     background-color: #403D58;
 }
 
+.ui-menu-color-home {
+    background-color: #3C91E6;
+}
+
+.ui-menu-color-resume {
+    background-color: #CB429F;
+}
+
+.ui-menu-color-contact {
+    background-color: #F3CA13;
+}
+
+.ui-menu-color-download {
+    background-color: #56E39F;
+}
+
 /* -------------------------------------- Heading */
 
 header {
