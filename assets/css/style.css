@@ -11,6 +11,10 @@
     background-color: #E7E7E7;
 }
 
+.bg-color-education-history {
+    background-color: #CB429F;
+}
+
 .ui-menu-color-home {
     background-color: #FC7A1E;
 }
@@ -60,7 +64,7 @@ h4 {
     float: none;
 }
 
-.history-heading,
+.education-heading,
 .section-heading {
     font-family: "Quicksand", sans-serif;
     font-weight: 300;
@@ -260,3 +264,52 @@ footer {
     position: relative;
     width: 60%;
 }
+
+/* --------------------------------------------- Education */
+
+.education-heading {
+    color: #D7CDCC;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #D7CDCC;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: #fafafa;
+}
+
+.education-items {
+    margin-bottom: 30px;
+}
+
